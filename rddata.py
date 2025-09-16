@@ -7,10 +7,10 @@ from datetime import datetime
 # ================== 配置区 ==================
 class DataBase_Position:
     """从Mysql数据库获取数据"""
-    __HOST = "106.15.107.93"
+    __HOST = ""
     __PORT = 3306
-    __USERNAME = "chennianzeng"
-    __PASSWORD = "chennianzeng666"
+    __USERNAME = ""
+    __PASSWORD = ""
     __SCHEMA_OTC = "StockSignal"
 
     def __init__(self):
