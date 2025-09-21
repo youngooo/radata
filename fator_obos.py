@@ -8,11 +8,11 @@ import logging
 
 # ============== 初始化数据库连接 ==============
 class DataBase_Position:
-    __HOST = "106.15.107.93"
+    __HOST = ""
     __PORT = 3306
-    __USERNAME = "chennianzeng"
-    __PASSWORD = "chennianzeng666"
-    __SCHEMA_OTC = "StockSignal"
+    __USERNAME = ""
+    __PASSWORD = ""
+    __SCHEMA_OTC = ""
 
     def __init__(self):
         self.conn = pymysql.connect(
